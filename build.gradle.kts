@@ -28,6 +28,14 @@ dependencies {
 
     // Use TestNG framework, also requires calling test.useTestNG() below
     testImplementation("org.testng:testng:6.14.3")
+
+
+
+
+
+    compile (group = "javax.servlet"       , name = "servlet-api"     , version = "2.5")
+
+
 }
 
 application {
