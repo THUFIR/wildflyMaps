@@ -11,7 +11,7 @@ plugins {
     java
 
     // Apply the application plugin to add support for building an application
-    application
+    //application
 
     war
 }
@@ -38,10 +38,10 @@ dependencies {
 
 }
 
-application {
+//application {
     // Define the main class for the application
-    mainClassName = "wildflyMaps.App"
-}
+  //  mainClassName = "wildflyMaps.App"
+//}
 
 val test by tasks.getting(Test::class) {
     // Use TestNG for unit tests
