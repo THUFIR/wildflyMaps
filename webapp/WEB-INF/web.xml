@@ -18,13 +18,13 @@
     
     
     <servlet>
-        <servlet-name>Simple</servlet-name>
-        <servlet-class>net.bounceme.dur.wildfly.war.maps.Simple</servlet-class>
+        <servlet-name>Result</servlet-name>
+        <servlet-class>net.bounceme.dur.wildfly.war.maps.Result</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>Simple</servlet-name>
-        <url-pattern>simple.html</url-pattern>
+        <servlet-name>Result</servlet-name>
+        <url-pattern>result.html</url-pattern>
     </servlet-mapping>
   
   
