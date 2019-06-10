@@ -6,21 +6,26 @@
 
 <web-app>
 
-        <welcome-file-list>  
-        <welcome-file>home.html</welcome-file>  
+    <welcome-file-list>  
+        <welcome-file>input.html</welcome-file>  
+    </welcome-file-list> 
+    
+    
+    <welcome-file-list>  
+        <welcome-file>result.html</welcome-file>  
     </welcome-file-list> 
     
     
     
-  <servlet>
-    <servlet-name>NewServlet</servlet-name>
-    <servlet-class>net.bounceme.dur.wildfly.war.maps.NewServlet</servlet-class>
-  </servlet>
+    <servlet>
+        <servlet-name>Simple</servlet-name>
+        <servlet-class>net.bounceme.dur.wildfly.war.maps.Simple</servlet-class>
+    </servlet>
 
-  <servlet-mapping>
-    <servlet-name>NewServlet</servlet-name>
-    <url-pattern>*.html</url-pattern>
-  </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Simple</servlet-name>
+        <url-pattern>simple.html</url-pattern>
+    </servlet-mapping>
   
   
 </web-app>

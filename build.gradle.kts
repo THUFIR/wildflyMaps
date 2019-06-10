@@ -20,6 +20,13 @@ repositories {
     // Use jcenter for resolving your dependencies.
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
+
+  //  maven {
+  //      url = uri("https://mvnrepository.com")
+  //  }
+
+  //  mavenCentral()
+
 }
 
 dependencies {
@@ -30,8 +37,9 @@ dependencies {
     testImplementation("org.testng:testng:6.14.3")
 
 
-    compile (group = "javax.servlet"              , name = "servlet-api"     , version = "2.5")
+    compile (group = "javax.servlet"              , name = "javax.servlet-api"     , version = "4.0.1")
 //    compile (group = "org.apache.myfaces.core"    , name = "myfaces-impl"    , version = "2.3.4")
+
 
 
 
