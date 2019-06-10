@@ -31,7 +31,7 @@ dependencies {
 
 
     compile (group = "javax.servlet"              , name = "servlet-api"     , version = "2.5")
-    compile (group = "org.apache.myfaces.core"    , name = "myfaces-impl"    , version = "2.3.4")
+//    compile (group = "org.apache.myfaces.core"    , name = "myfaces-impl"    , version = "2.3.4")
 
 
 
