@@ -13,7 +13,7 @@ plugins {
     // Apply the application plugin to add support for building an application
     application
 
-    ear
+    war
 }
 
 repositories {
