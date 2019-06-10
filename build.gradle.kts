@@ -32,6 +32,11 @@ dependencies {
 
     compile (group = "javax.servlet"       , name = "servlet-api"     , version = "2.5")
 
+
+
+
+
+
 }
 
 //application {
@@ -42,4 +47,16 @@ dependencies {
 val test by tasks.getting(Test::class) {
     // Use TestNG for unit tests
     useTestNG()
+}
+
+
+
+tasks.war {
+  //  from("src/rootContent") // adds a file-set to the root of the archive
+  //  webInf { from("src/additionalWebInf") } // adds a file-set to the WEB-INF dir.
+  //  classpath(fileTree("additionalLibs")) // adds a file-set to the WEB-INF/lib dir.
+ //   classpath(moreLibs) // adds a configuration to the WEB-INF/lib dir.
+ //   webXml = file("src/someWeb.xml") // copies a file to WEB-INF/web.xml
+
+      webXml = file("webapp/WEB-INF/web.xml")
 }
